@@ -19,10 +19,12 @@
     margin: auto;
     cursor: pointer;
     opacity: 0.5;
+    z-index: 2;
   }
   .wrapper {
     height: 100%;
     display: flex;
+    // transform: translate(0vw);
     .slider {
       width: 100vw;
       height: 100vh;
@@ -42,12 +44,7 @@
     .info-container {
       flex: 1;
       padding: 50px;
-      position: absolute;
       padding: 50px;
-      top: 250px;
-      right: 0;
-      bottom: 0;
-      width: 40%;
       .title {
         font-size: 70px;
       }
