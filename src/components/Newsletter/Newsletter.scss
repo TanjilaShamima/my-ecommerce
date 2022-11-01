@@ -1,0 +1,36 @@
+.news-container {
+    height: 60vh;
+    background-color: #fcf5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .title {
+        font-size: 70px;
+        margin-bottom: 20px;
+    }
+    .description {
+        font-size: 24px;
+        font-weight: 300;
+        margin-bottom: 20px;
+    }
+    .input-container {
+        width: 50%;
+        height: 40px;
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid lightgray;
+        input {
+            border: none;
+            flex: 8;
+            padding-left: 20px;
+        }
+        .button {
+            flex: 2;
+            border: none;
+            background-color: teal;
+            color: white;
+        }
+    }
+}
