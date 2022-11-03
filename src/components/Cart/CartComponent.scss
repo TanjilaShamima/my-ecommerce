@@ -1,0 +1,123 @@
+.cart-container {
+  .wrapper {
+    padding: 20px;
+    .title {
+      font-weight: 300;
+      text-align: center;
+    }
+    .top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+      .top-button {
+        padding: 10px;
+        font-weight: 600;
+        cursor: pointer;
+        background-color: transparent;
+      }
+      .checkout {
+        border: none;
+        background-color: black;
+        color: white;
+      }
+      .top-texts {
+        display: flex;
+        .top-text {
+          text-decoration: underline;
+          cursor: pointer;
+          margin: 0px 10px;
+        }
+      }
+    }
+    .bottom {
+      display: flex;
+      justify-content: space-between;
+      .info {
+        flex: 3;
+        .product {
+          display: flex;
+          justify-content: space-between;
+          padding: 20px 0px;
+          .product-details {
+            display: flex;
+            flex: 2;
+            img {
+              width: 200px;
+            }
+            .details {
+              padding: 20px;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+              .product-name {
+                margin-bottom: 10px;
+              }
+              .product-id {
+                margin-bottom: 10px;
+              }
+              .product-color {
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                margin-bottom: 10px;
+              }
+              .product-size {
+              }
+            }
+          }
+          .price-details {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .product-amount {
+              display: flex;
+              align-items: center;
+              margin-bottom: 20px;
+              .amount {
+                font-size: 24px;
+                margin: 5px;
+              }
+            }
+            .product-price {
+              font-size: 30px;
+              font-weight: 200;
+            }
+          }
+        }
+        hr {
+          background-color: #eee;
+          border: none;
+          height: 1px;
+        }
+      }
+      .summery {
+        flex: 1;
+        border: 0.5px solid lightgray;
+        border-radius: 10px;
+        padding: 20px;
+        height: 50vh;
+        .summery-title {
+          font-weight: 200;
+        }
+        .summery-items {
+          margin: 30px 0px;
+          display: flex;
+          justify-content: space-between;
+        }
+        .total {
+          font-weight: 500;
+        }
+        button {
+          width: 100%;
+          padding: 10px;
+          background-color: black;
+          color: white;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import Cart from './pages/Cart';
 import Home from './pages/Home';
 import LoginPage from './pages/Login';
 import SingleProductPage from './pages/product';
@@ -10,7 +11,8 @@ function App() {
     // <ProductList />
     // <SingleProductPage />
     // <RegisterPage />
-    <LoginPage />
+    // <LoginPage />
+    <Cart />
   );
 }
 
